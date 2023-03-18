@@ -1,0 +1,383 @@
+.phone-makeup {
+    position:absolute;
+    left:80%;
+    bottom: 65%;
+  }
+
+  .phone {
+    position: absolute;
+    background-image: url("icons/phone.png");
+    background-size: cover;
+    background-position: center top;
+    width: 300px;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
+    padding: 20px;
+    touch-action: none; /* Disable default touch actions */
+  }
+
+  .phonenormal {
+    position: absolute;
+    background-image: url("icons/phonenormal.png");
+    background-size: cover;
+    background-position: center top;
+    width: 300px;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
+    padding: 20px;
+    touch-action: none; /* Disable default touch actions */
+  }
+
+  .phonen {
+    position: absolute;
+    background-image: url("icons/phonen.png");
+    background-size: cover;
+    background-position: center top;
+    width: 300px;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
+    padding: 20px;
+    touch-action: none; /* Disable default touch actions */
+  }
+  
+  
+  .screen {
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 70px; /* adjust margin-bottom to make room for buttons */
+    border-radius: 5px;
+    overflow: auto;
+    padding: 0px;
+  }
+  
+  .button-row-one {
+    position: absolute;
+    bottom: 30px; /* increase the distance from the bottom of the screen */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .button-row-two{
+    position: absolute;
+    top: 25%; /* increase the distance from the bottom of the screen */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .button-row-three{
+    position: absolute;
+    top: 37%; /* increase the distance from the bottom of the screen */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin: 0 10px;
+    border-radius: 50%;
+  }
+
+  .section {
+    display: none;
+  }
+  
+  .section:not(.hidden) {
+    display: block;
+  }
+  
+  .call-btn, .msg-btn, .contacts-btn, .settings-btn, .calculator-btn, .clock-btn, .notes-btn, .health-btn, .stats-btn, .mail-btn, .weatherapp-btn, .news-btn {
+    background: none;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .call-btn {
+    background-image: url("icons/call.png");
+  }
+  
+  .msg-btn {
+    background-image: url("icons/msg.png");
+  }
+  
+  .contacts-btn {
+    background-image: url("icons/contacts.png");
+  }
+  
+  .settings-btn {
+    background-image: url("icons/settings.png");
+  }
+
+  .weather-btn {
+    background-image: url("icons/weather.png");
+  }
+
+  .calculator-btn {
+    background-image: url("icons/calculator.png");
+  }
+
+  .clock-btn {
+    background-image: url("icons/clock.png");
+  }
+
+  .notes-btn {
+    background-image: url("icons/notes.png");
+  }
+
+  .health-btn {
+    background-image: url("icons/health.png");
+  }
+
+  .stats-btn {
+    background-image: url("icons/stats.png");
+  }
+
+  .mail-btn {
+    background-image: url("icons/mail.png");
+  }
+
+  .weatherapp-btn {
+    background-image: url("icons/weatherapp.png");
+  }
+
+  .news-btn {
+    background-image: url("icons/news.png");
+  }
+
+  .weather-btn {
+    width: 261px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    margin-top: 0%;
+  }
+  
+  .home-btn {
+    background-size: 30px 30px;
+    background-color: #242424;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 200px;
+    height: 10px;
+    border-radius: 10px;
+  }
+  
+  .home-button {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calculator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+  }
+  
+  .calculator button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .calculator .span-two {
+    grid-column: span 2;
+  }
+  
+  .calculator .span-three {
+    grid-column: span 3;
+  }
+  
+  .calculator .span-four {
+    grid-column: span 4;
+  }
+  
+  .calculator .operator {
+    background-color: #f8ae0a;
+    color: #fff;
+  }
+  
+  .calculator .equal {
+    background-color: #e08e0b;
+    color: #fff;
+  }
+
+  .input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .input-screen {
+    color: white;
+    font-size: 30px;
+  }
+
+  .clock-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+
+  .clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hand {
+    width: 50%;
+    height: 6px;
+    position: absolute;
+    top: 47%;
+    transform-origin: 100%;
+    background: #333;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  }
+  .hour-hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 4px;
+    background-color: rgb(209, 209, 209);
+    transform-origin: 0% 50%;
+  }
+  
+  .minute-hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    transform-origin: 0% 50%;
+  }
+
+  .second-hand {
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    width: 2px;
+    height: 80px;
+    background-color: #c3ff00;
+    transform-origin: center;
+    transform: translate(-50%, -100%) rotate(90deg);
+    z-index: 3;
+  }
+  
+  .clock-face {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(49, 49, 49);
+  }
+
+  .clock-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+
+  .notes-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the note */
+  .note {
+    width: 100%;
+    max-width: 300px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-text {
+    width: 100%;
+    height: 200px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    resize: none;
+  }
+  
+  /* Style the delete note button */
+  .delete-note {
+    display: block;
+    width: 100%;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the add note button */
+  .add-note {
+    display: block;
+    width: 100%;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
